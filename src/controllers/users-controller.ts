@@ -6,7 +6,6 @@ class UsersController {
   }
 
   async create(request: Request, response: Response) {
-    throw new Error("Erro qualquer")
     return response.status(201).json({ message: "ok" })
   }
 
